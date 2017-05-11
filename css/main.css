@@ -22,10 +22,10 @@ section {
 }
 
 div {
-    width: 60%;
+    width: 40%;
 }
 
-@media (min-width:769px) {
+@media (min-width:769px){
     section {
         background-image: url(../img/Landscape.jpg);
         background-size: cover;
@@ -51,7 +51,7 @@ div {
         background-size: cover;
     }
     div {
-        width: 80%;
+        width: 70%;
         content: url(../img/kitten-large.png);
     }
 }
