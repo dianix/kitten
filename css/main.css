@@ -12,8 +12,56 @@
 
 html,
 body,
-section {
+section#paisaje {
     width: 100%;
     height: 100%;
 }
 
+section {
+    background-image: url(../img/Landscape.jpg);
+}
+
+div {
+    width: 60%;
+}
+
+@media (min-width:769px) {
+    section {
+        background-image: url(../img/Landscape.jpg);
+        background-size: cover;
+    }
+    div {
+        content: url(../img/kitten-medium.png);
+    }
+}
+
+@media (min-width:669px) and (max-width:768px) {
+    section {
+        background-image: url(../img/dawn.png);
+        background-size: cover;
+    }
+    div {
+        content: url(../img/kitten-medium.png);
+    }
+}
+
+@media (min-width:537px) and (max-width:668px) {
+    section {
+        background-image: url(../img/dawn.png);
+        background-size: cover;
+    }
+    div {
+        width: 80%;
+        content: url(../img/kitten-large.png);
+    }
+}
+
+@media (min-width:0px) and (max-width:536px) {
+    section {
+        background-image: url(../img/maxresdefault.jpg);
+        background-size: cover;
+    }
+    div {
+        content: url(../img/kitten-small.png);
+    }
+}
